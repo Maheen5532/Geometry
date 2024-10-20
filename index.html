@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Geometry Calculator</h1>
+
+        <h2>Choose the Shape</h2>
+        <select id="Shapes">
+            <option value="circle">Circle</option>
+            <option value="triangle">Triangle</option>
+            <option value="square">Square</option>
+            <option value="rectangle">Rectangle</option>
+        </select>
+
+        <div id="input-fields">
+            <div id="length-div">
+                <label for="length">Length:</label>
+                <input type="number" id="length" placeholder="Enter length">
+            </div>
+            <div id="width-div">
+                <label for="width">Width:</label>
+                <input type="number" id="width" placeholder="Enter width">
+            </div>
+            <div id="radius-div">
+                <label for="radius">Radius:</label>
+                <input type="number" id="radius" placeholder="Enter radius">
+            </div>
+        </div>
+
+        <button id="calculate-btn">Calculate</button>
+
+        <p id="answer"></p>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
+
